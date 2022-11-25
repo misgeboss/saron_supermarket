@@ -1,0 +1,105 @@
+@font-face {
+    font-family: popins; 
+    src: url(Poppins-Regular.ttf);
+    
+    font-family: fuzzy; 
+    src: url(FuzzyBubbles-Bold.ttf);
+
+    font-family: mocanzo;
+    src: url(Macondo-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    background-color: #FFD700;
+    font-family: popins;
+    
+    
+}
+
+header {
+    text-align: left;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.911);
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.712);
+    font-family: mocanzo;
+  
+
+}
+
+.container{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #FFD700;
+    
+}
+
+#initial-page {
+    
+    max-width: 100%;
+    margin-left: 400px;
+    }
+
+    button{
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 20px;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        font-family: popins;
+        font-size: larger;
+        background: none;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px #0000008f;
+        font-family: popins;
+    }
+#btn {
+     background-color: #FFD700;
+     text-decoration: none;
+}
+button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    
+}
+
+button :hover{
+color: rgba(240, 248, 255, 0.863);
+transition: .10s;
+}
+#img1{
+    width: 500px;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 150px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.397);
+    height: 400px;
+}
+
+
+#img2{
+    width: 500px;
+    position: absolute;
+    margin-top: 450px;
+    border-radius: 150px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.397);
+    height: 400px;
+}
+   
+
+p{
+    text-align: bottom;
+    align-content: bottom   ;
+}
